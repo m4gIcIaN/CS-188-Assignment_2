@@ -1,2 +1,5 @@
-# CS-188-Assignment_2
-This is just a filler repository for my CS 188 class at Drake University.
+Repository, Service, and Controllers Expansion Assignment
+
+Nihad Dedic
+CS 188
+March 1st, 2020
