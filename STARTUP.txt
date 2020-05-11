@@ -1,0 +1,8 @@
+
+download both app.py and the templates
+
+cd to the folder where they are located in terminal
+
+do "python app.py" (you might need to do "pip install Flask" to install the flask library)
+
+then go to your browser and "127.0.0.1/15155"

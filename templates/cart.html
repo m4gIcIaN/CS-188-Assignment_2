@@ -1,0 +1,13 @@
+<section>
+    <h1>{{firstName}}'s Cart</h1>
+    <p>You have {{cartLength}} item/'s in your cart</p>
+    <ul>
+        {% for item in items %}
+            <li key={{item['item_id']}}>
+                <a href="/items/{{item['item_id']}}">{{item['description']}}</a>  
+                <button type="button" onclick={{ removeItem(item['item_id'], firstName) }}>Remove</button>
+            </li>
+        {% endfor %}
+    </ul>
+    <p>Current Total: ${{priceTotal}}</p>
+</section>
