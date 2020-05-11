@@ -1,0 +1,10 @@
+<section>
+    <h1>Drake University Apparel</h1>
+    <ul>
+        {% for item in items %}
+            <li><a href="/items/{{item['item_id']}}">
+                {{ item['description']}}
+            </a></li>
+        {% endfor %}
+    </ul>
+</section>
